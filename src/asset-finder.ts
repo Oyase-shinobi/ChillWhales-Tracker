@@ -10,7 +10,7 @@ import {
 } from './collection-functions/repository';
 import { Widgets } from 'blessed';
 
-const args = process.argv.slice(2);
+const args = process.argv.slice(2);                   
 
 const assetConfig = JSON.parse(
     readFileContent(
